@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: #005e48 !important;
+    width: 100%;
+}
+
+nav ul li{
+    cursor: pointer;
+    display: inline-block;
+    line-height: 57px;
+    margin: 0 5px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+img{
+    height: 50px;
+    width: 110px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 16px;
+    padding: 7px 13px;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+a.active, a:hover{
+    background-color: #54a87c;
+    transition: .5s;;
+}
+
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 65px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: left;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+.Login{
+
+}
+
+.Logout{
+    width: 90px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 7px 13px;
+    color: white;
+    font-size: 16px;
+}
+
+// @media (max-width: 952px) {
+//     label.logo{
+//         font-size: 30px;
+//         padding-left: 50px;
+//     }
+//     nav ul li a{
+//         font-size: 16px;
+//     }
+// }
+
+// @media (max-width: 856px) {
+//     .checkbtn{
+//         display: block;
+//     }
+//     ul{
+//         position: fixed;
+//         z-index: 1;
+//         width: 100%;
+//         height: 100vh;
+//         background-color: #2c3e50;
+//         text-align: center;
+//         transition: all 0.5s;
+//     }
+
+//     nav ul li{
+//         display: block;
+//         margin: 50px 0px;
+//         line-height: 30px;
+//     }
+
+//     nav ul li a {
+//         font-size: 20px;
+//     }
+
+//     #check:checked ~ ul{
+//         left: 0;
+//     }
+
+//     a:hover, a.active{
+//         background: none;
+//         color: #0082e6;
+//     }
+// }
