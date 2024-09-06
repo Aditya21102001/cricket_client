@@ -8,21 +8,15 @@ import { ApiServiceService } from '../../Services/api-service.service';
   standalone: true,
   imports: [RouterLink, RouterModule, CommonModule],
   templateUrl: './navbar.component.html',
-  styleUrl: './navbar.component.scss'
+  styleUrl: './navbar.component.scss',
 })
 export class NavbarComponent implements OnInit {
-
-  constructor(private service: ApiServiceService){
-
-  }
+  constructor(private service: ApiServiceService) {}
   ngOnInit(): void {
     // this.service.login();
   }
 
-  isLoggedIn():boolean{
+  isLoggedIn(): boolean {
     return this.service.isLoggedIn();
   }
-
-
-
 }

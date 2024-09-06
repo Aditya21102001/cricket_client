@@ -1,1 +1,190 @@
-<p>matches works!</p>
+<div class="container">
+  <h2>Upcoming Matches And News</h2>
+</div>
+<div class="container mt-4">
+  <!-- slider1 -->
+  <div class="row">
+    <div class="slider1 col-md-8 d-flex flex-wrap" style="height: fit-content !important;">
+      @for(match of matches; track $index){
+      <div class="col-md-5 card m-2 border-1" style="height: fit-content !important;">
+        <div class="header">
+          <div class="d-flex justify-content-between">
+            <h6>
+              <img src="{{ match.flag1 }}" alt="" />
+              {{ match.team1 }}
+            </h6>
+            <h6>
+              <img src="{{ match.flag2 }}" alt="" />
+              {{ match.team2 }}
+            </h6>
+          </div>
+          <p class="mb-0 mt-2 text-center">{{ match.venue }}</p>
+        </div>
+        <hr class="m-0 mt-2 mb-2" />
+        <div class="footer d-flex justify-content-between">
+          <p>{{ match.date }}</p>
+          <p>{{ match.time }}</p>
+        </div>
+      </div>
+      }
+    </div>
+    <!-- slider2 -->
+    <div class="col-4 slider2 p-0">
+      <div class="news d-flex">
+        <div class="image">
+          <img
+            src="https://static.cricbuzz.com/a/img/v1/205x152/i1/c544571/back-in-familiar-climes-rahu.jpg"
+            alt=""
+          />
+        </div>
+        <div class="newText">
+          <p class="m-0 head">Rahul Dravid: The most-wanted Royal</p>
+          <h6>
+            It always seemed inevitable that Dravid would return to Rajasthan
+            Royals, even when there were other, more lucrative offers, on his
+            table.
+          </h6>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore
+            cupiditate ipsa nisi consequatur explicabo, vel maiores
+            reprehenderit doloribus ut assumenda aliquam quo perferendis animi!
+            Maiores natus ullam excepturi facilis quaerat!
+          </p>
+        </div>
+      </div>
+      <div class="news d-flex">
+        <div class="image">
+          <img
+            src="https://static.cricbuzz.com/a/img/v1/205x152/i1/c544571/back-in-familiar-climes-rahu.jpg"
+            alt=""
+          />
+        </div>
+        <div class="newText">
+          <p class="m-0 head">Rahul Dravid: The most-wanted Royal</p>
+          <h6>
+            It always seemed inevitable that Dravid would return to Rajasthan
+            Royals, even when there were other, more lucrative offers, on his
+            table.
+          </h6>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore
+            cupiditate ipsa nisi consequatur explicabo, vel maiores
+            reprehenderit doloribus ut assumenda aliquam quo perferendis animi!
+            Maiores natus ullam excepturi facilis quaerat!
+          </p>
+        </div>
+      </div>
+      <div class="news d-flex">
+        <div class="image">
+          <img
+            src="https://static.cricbuzz.com/a/img/v1/205x152/i1/c544571/back-in-familiar-climes-rahu.jpg"
+            alt=""
+          />
+        </div>
+        <div class="newText">
+          <p class="m-0 head">Rahul Dravid: The most-wanted Royal</p>
+          <h6>
+            It always seemed inevitable that Dravid would return to Rajasthan
+            Royals, even when there were other, more lucrative offers, on his
+            table.
+          </h6>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore
+            cupiditate ipsa nisi consequatur explicabo, vel maiores
+            reprehenderit doloribus ut assumenda aliquam quo perferendis animi!
+            Maiores natus ullam excepturi facilis quaerat!
+          </p>
+        </div>
+      </div>
+      <div class="news d-flex">
+        <div class="image">
+          <img
+            src="https://static.cricbuzz.com/a/img/v1/205x152/i1/c544571/back-in-familiar-climes-rahu.jpg"
+            alt=""
+          />
+        </div>
+        <div class="newText">
+          <p class="m-0 head">Rahul Dravid: The most-wanted Royal</p>
+          <h6>
+            It always seemed inevitable that Dravid would return to Rajasthan
+            Royals, even when there were other, more lucrative offers, on his
+            table.
+          </h6>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore
+            cupiditate ipsa nisi consequatur explicabo, vel maiores
+            reprehenderit doloribus ut assumenda aliquam quo perferendis animi!
+            Maiores natus ullam excepturi facilis quaerat!
+          </p>
+        </div>
+      </div>
+      <div class="news d-flex">
+        <div class="image">
+          <img
+            src="https://static.cricbuzz.com/a/img/v1/205x152/i1/c544571/back-in-familiar-climes-rahu.jpg"
+            alt=""
+          />
+        </div>
+        <div class="newText">
+          <p class="m-0 head">Rahul Dravid: The most-wanted Royal</p>
+          <h6>
+            It always seemed inevitable that Dravid would return to Rajasthan
+            Royals, even when there were other, more lucrative offers, on his
+            table.
+          </h6>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore
+            cupiditate ipsa nisi consequatur explicabo, vel maiores
+            reprehenderit doloribus ut assumenda aliquam quo perferendis animi!
+            Maiores natus ullam excepturi facilis quaerat!
+          </p>
+        </div>
+      </div>
+      <div class="news d-flex">
+        <div class="image">
+          <img
+            src="https://static.cricbuzz.com/a/img/v1/205x152/i1/c544571/back-in-familiar-climes-rahu.jpg"
+            alt=""
+          />
+        </div>
+        <div class="newText">
+          <p class="m-0 head">Rahul Dravid: The most-wanted Royal</p>
+          <h6>
+            It always seemed inevitable that Dravid would return to Rajasthan
+            Royals, even when there were other, more lucrative offers, on his
+            table.
+          </h6>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore
+            cupiditate ipsa nisi consequatur explicabo, vel maiores
+            reprehenderit doloribus ut assumenda aliquam quo perferendis animi!
+            Maiores natus ullam excepturi facilis quaerat!
+          </p>
+        </div>
+      </div>
+      <div class="news d-flex">
+        <div class="image">
+          <img
+            src="https://static.cricbuzz.com/a/img/v1/205x152/i1/c544571/back-in-familiar-climes-rahu.jpg"
+            alt=""
+          />
+        </div>
+        <div class="newText">
+          <p class="m-0 head">Rahul Dravid: The most-wanted Royal</p>
+          <h6>
+            It always seemed inevitable that Dravid would return to Rajasthan
+            Royals, even when there were other, more lucrative offers, on his
+            table.
+          </h6>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore
+            cupiditate ipsa nisi consequatur explicabo, vel maiores
+            reprehenderit doloribus ut assumenda aliquam quo perferendis animi!
+            Maiores natus ullam excepturi facilis quaerat!
+          </p>
+        </div>
+      </div>
+      <hr />
+    </div>
+  </div>
+</div>

@@ -1,0 +1,25 @@
+.name{
+    font-weight: 500;
+    color: rgb(116, 114, 114);
+    margin-top: 20px;
+}
+
+.header{
+    border-bottom: 2px solid gray;
+}
+.font{
+    font-weight: bold;
+}
+.card{
+    border-bottom: 2px solid green;
+    cursor: pointer;
+    border-radius: 15px;
+    width: 90%;
+}
+
+.card:hover{
+    color: rgb(86, 86, 228);
+}
+p{
+    margin: 1px;
+}
