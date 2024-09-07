@@ -1,1 +1,37 @@
-<div class="container"></div>
+<div class="container">
+  <h2 class="mt-5 mb-4">Cricket World Cup Point Table</h2>
+  <div class="table-responsive">
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th>Team</th>
+          <th>Matches</th>
+          <th>Won</th>
+          <th>NNR</th>
+          <th>Points</th>
+          <th>Last 5 matches</th>
+        </tr>
+      </thead>
+      <tbody>
+        @for(pointT of pointTable; track $index){
+        <tr>
+          <td>
+            <img class="team-logo" src="{{pointT.logo}}" alt="" />
+            <label for="">{{pointT.country}}</label>
+          </td>
+          <td>{{pointT.matches}}</td>
+          <td>{{pointT.won}}</td>
+          <td>{{pointT.lost}}</td>
+          <td>{{pointT.nrr}}</td>
+          <td>{{pointT.point}}</td>
+          <td class="last5Match">
+            @for(winLose of pointT.results; track $index){
+                <i [ngClass]="winLose==='win' ? 'fa fa-check win' : 'fa fa-times lose'" aria-hidden="true"></i>
+            }
+          </td>
+        </tr>
+        }
+      </tbody>
+    </table>
+  </div>
+</div>
